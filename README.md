@@ -5,6 +5,8 @@ To run the code, just execute the following commands:
 ```bash
 git clone -b v0.1.0 https://github.com/kapsner/latent-diffusion
 cd latent-diffusion
+conda env create -f environment.yaml
+conda activate ldm
 
 export parameter_grid=./param_grid_230119.csv
 export ldm_cfg=./configs/latent-diffusion/dce_mip-vq-seg.yaml
