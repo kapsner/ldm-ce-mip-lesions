@@ -5,6 +5,7 @@ To run the code, just execute the following commands:
 ```bash
 git clone -b v0.1.0 https://github.com/kapsner/latent-diffusion
 cd latent-diffusion
+
 conda env create -f environment.yaml
 conda activate ldm
 
